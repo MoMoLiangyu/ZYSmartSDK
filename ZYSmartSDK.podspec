@@ -107,7 +107,9 @@ Pod::Spec.new do |spec|
 
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
+  
   spec.resource  = "Tool/SmartSDK.framework/SmartImages.bundle"
+  
   spec.ios.vendored_frameworks = 'Tool/SmartSDK.framework'
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
@@ -137,5 +139,17 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
+  spec.dependency "Masonry"
+  spec.dependency "IQKeyboardManager"
+  spec.dependency "MBProgressHUD"
+  spec.dependency "YBImageBrowser"
+  spec.dependency "ZFPlayer"
+  spec.dependency "ZFPlayer/ControlView"
+  spec.dependency "ZFPlayer/AVPlayer"
+  spec.dependency "AMap3DMap"
+  spec.dependency "AMapSearch"
+  spec.dependency "AFNetworking"
+  spec.dependency "BIJKPlayer"
+  spec.dependency "SDWebImage"
 
 end
